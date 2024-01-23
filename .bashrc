@@ -109,7 +109,7 @@ alias grep='grep --color=always'
 
 #######################################  LS    ############################################
 alias l='ls --color=always'
-alias l.='ls -d .* --color=always'
+alias l.='ls -d .*'
 alias ll='ls -lhrt --color=always'
 alias lla='ls -lhrta --color=always'
 alias lld='ls -lUd */ --color=always'
@@ -147,11 +147,11 @@ alias gpush='git push'
 alias gpushf='git push --force'
 
 alias gclearcache='git rm -r --cached .'
-
 ########################################  FAST  ########################################
 alias v='nvim'
 alias v.='nvim .'
 alias c='clear'
+alias h='history'
 alias ee='exit'
 alias code.='code . && exit'
 alias cp='cp -r'
