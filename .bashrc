@@ -122,7 +122,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias cdd='cd ~/Documents'
-alias cdt='cd ~/Documents/ADAPT-LAB/tesi-bruzzone'
+alias cdt='cd ~/Documents/ADAPT-LAB/tesi-bruzzone/trunk/jss24/submission'
 alias cdmc='cd ~/Documents/master-courses'
 
 ######################################## GIT ########################################
