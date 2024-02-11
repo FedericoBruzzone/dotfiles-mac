@@ -224,6 +224,7 @@ alias j11="jhome 11" # "export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -v
 alias gcc='gcc-13'
 
 # ==================C++=================
+# export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
 # export CPPFLAGS="-I/usr/local/opt/openjdk@17/include"
 # === g++ ===
 alias g++='g++-13'
