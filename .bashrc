@@ -289,6 +289,12 @@ vimbib() { # it assumes to have $BIBINPUTS set and with the dir to look into as 
 # ==================all===========
 # export PATH="/usr/local/bin:$PATH"
 
+# ==================yabai===========
+yabai --stop-service; yabai --start-service;
+
+# ==================skhd===========
+skhd --stop-service; skhd --start-service;
+
 # ==================starship===========
 # export STARSHIP_CONFIG=~/.config/starship.toml
 eval "$(starship init bash --print-full-init)"
