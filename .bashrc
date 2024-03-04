@@ -286,6 +286,9 @@ vimbib() { # it assumes to have $BIBINPUTS set and with the dir to look into as 
   vim -p "${bibs[@]}"
 }
 
+# ==================pkg-config===========
+export PKG_CONFIG_PATH=~/Documents/td/build/pkgconfig/:$PKG_CONFIG_PATH
+
 # ==================all===========
 # export PATH="/usr/local/bin:$PATH"
 
