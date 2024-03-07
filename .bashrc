@@ -122,8 +122,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias cdd='cd ~/Documents'
-alias cdt='cd ~/Documents/ADAPT-LAB/tesi-bruzzone/trunk/jss24/submission'
-alias cdmc='cd ~/Documents/master-courses'
+alias cdtd='cd ~/Documents/ADAPT-LAB/tesi-dagostino/trunk'
+alias cdtb='cd ~/Documents/ADAPT-LAB/tesi-bruzzone/trunk/jss24/submission'
 
 ######################################## GIT ########################################
 alias gstatus='git status -sb'
