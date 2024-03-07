@@ -1,3 +1,9 @@
+source ~/.vim/vim-plug/coc.vim
+
+call plug#begin('~/.vim/plugged')
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
 set nocompatible
 
 set backspace=indent,eol,start

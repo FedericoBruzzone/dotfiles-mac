@@ -149,6 +149,8 @@ alias gpushf='git push --force'
 
 alias gclearcache='git rm -r --cached .'
 
+alias gitammendall='git add --all && git commit --amend --no-edit && git push --force'
+
 ######################################## SVN ########################################
 export SVN_EDITOR=nvim
 
