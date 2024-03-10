@@ -300,7 +300,7 @@ export API_HASH="a3406de8d171bb422bb6ddf3bbd800e2"
 export API_ID="94575"
 
 # ==================all===========
-# export PATH="/usr/local/bin:$PATH"
+# export PATH="/usr/local/bin:$PATH
 
 # ==================yabai===========
 yabai --stop-service; yabai --start-service;
