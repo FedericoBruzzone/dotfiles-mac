@@ -1,9 +1,9 @@
 ## Navigation (lalt - ...)
 # Space Navigation - lalt - {1, 2, 3, 4}
-lalt - 1 : SPACES=($(yabai -m query --windows --space 1 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 1 && yabai -m space --focus 1
-lalt - 2 : SPACES=($(yabai -m query --windows --space 2 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 2 && yabai -m space --focus 2
-lalt - 3 : SPACES=($(yabai -m query --windows --space 3 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 3 && yabai -m space --focus 3
-lalt - 4 : SPACES=($(yabai -m query --windows --space 4 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 4 && yabai -m space --focus 4
+shift + lalt - 1 : SPACES=($(yabai -m query --windows --space 1 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 1 && yabai -m space --focus 1
+shift + lalt - 2 : SPACES=($(yabai -m query --windows --space 2 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 2 && yabai -m space --focus 2
+shift + lalt - 3 : SPACES=($(yabai -m query --windows --space 3 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 3 && yabai -m space --focus 3
+shift + lalt - 4 : SPACES=($(yabai -m query --windows --space 4 | jq '.[].id')) && [[ -n $SPACES[1] ]] && yabai -m window --space 4 && yabai -m space --focus 4
 
 # Window Navigation (through display borders): lalt - {j, k, l, ö}
 lalt - h : yabai -m window --focus west  || yabai -m display --focus west
@@ -35,13 +35,10 @@ shift + lalt - l : yabai -m window --warp east || $(yabai -m window --display ea
 shift + lalt - s : yabai -m window --toggle split
 
 # Moving windows between displays: shift + lalt - {1, 2, 3, 4}
-shift + lalt - 1 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[1] ]] && yabai -m window --space $DISPLAYS[1] && yabai -m space --focus $DISPLAYS[1]
-
-shift + lalt - 2 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[2] ]] && yabai -m window --space $DISPLAYS[2] && yabai -m space --focus $DISPLAYS[2]
-
-shift + lalt - 3 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[3] ]] && yabai -m window --space $DISPLAYS[3] && yabai -m space --focus $DISPLAYS[3]
-
-shift + lalt - 4 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[4] ]] && yabai -m window --space $DISPLAYS[4] && yabai -m space --focus $DISPLAYS[4]
+# shift + lalt - 1 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[1] ]] && yabai -m window --space $DISPLAYS[1] && yabai -m space --focus $DISPLAYS[1]
+# shift + lalt - 2 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[2] ]] && yabai -m window --space $DISPLAYS[2] && yabai -m space --focus $DISPLAYS[2]
+# shift + lalt - 3 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[3] ]] && yabai -m window --space $DISPLAYS[3] && yabai -m space --focus $DISPLAYS[3]
+# shift + lalt - 4 : DISPLAYS=($(yabai -m query --displays | jq '.[] | select(.focused == 1) | .spaces[].id')) && [[ -n $DISPLAYS[4] ]] && yabai -m window --space $DISPLAYS[4] && yabai -m space --focus $DISPLAYS[4]
 
 # shift + lalt - p : yabai -m window --space prev && yabai -m space --focus prev
 # shift + lalt - n : yabai -m window --space next && yabai -m space --focus next
