@@ -290,10 +290,11 @@ vimbib() { # it assumes to have $BIBINPUTS set and with the dir to look into as 
 
 # ==================pkg-config===========
 # export PKG_CONFIG_PATH=~/TMP/td/build/pkgconfig/:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/Users/federicobruzzone/TMP/tdlib/lib/pkgconfig/:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/Users/federicobruzzone/lib/tdlib/lib/pkgconfig/:$PKG_CONFIG_PATH
 
 # ==================dyld===========
-export DYLD_LIBRARY_PATH=/Users/federicobruzzone/TMP/tdlib/lib/:$DYLD_LIBRARY_PATH
+# export DYLD_LIBRARY_PATH=/Users/federicobruzzone/TMP/tdlib/lib/:$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=/Users/federicobruzzone/lib/tdlib/lib/:$DYLD_LIBRARY_PATH
 
 # ==================telegram===========
 export API_HASH="a3406de8d171bb422bb6ddf3bbd800e2"
