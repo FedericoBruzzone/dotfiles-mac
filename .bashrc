@@ -304,10 +304,10 @@ export API_ID="94575"
 # export PATH="/usr/local/bin:$PATH
 
 # ==================yabai===========
-yabai --stop-service; yabai --start-service;
+# yabai --stop-service; yabai --start-service;
 
 # ==================skhd===========
-skhd --stop-service; skhd --start-service;
+# skhd --stop-service; skhd --start-service;
 
 # ==================starship===========
 # export STARSHIP_CONFIG=~/.config/starship.toml

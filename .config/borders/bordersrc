@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Not
 # options=(
 # 	style=round
 # 	width=6.0
@@ -11,7 +12,7 @@
 options=(
 	style=round
 	width=6.0
-	hidpi=off
+	# hidpi=off
 	active_color=0xff00ff00
 	inactive_color=0xff414550
 )
