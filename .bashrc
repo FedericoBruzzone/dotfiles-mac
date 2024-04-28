@@ -300,6 +300,9 @@ export DYLD_LIBRARY_PATH=/Users/federicobruzzone/lib/tdlib/lib/:$DYLD_LIBRARY_PA
 export API_HASH="a3406de8d171bb422bb6ddf3bbd800e2"
 export API_ID="94575"
 
+# ==================zed===========
+alias zed="/Users/federicobruzzone/zed/target/release/Zed"
+
 # MACOS info
 # /Library/Developer/CommandLineTools
 
