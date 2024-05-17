@@ -1,6 +1,6 @@
 # Dotfiles (for MacOS)
 
-Welcome to my **Dotfiles** repository (for MacOS)!
+Welcome to my **Dotfiles** repository (for **MacOS**)!
 
 This is where I store and manage all my essential configuration files, or "dotfiles", which are key to customizing my development environment across various systems. By maintaining my dotfiles in a version-controlled repository, I ensure consistency and ease of setup no matter where I'm working.
 
